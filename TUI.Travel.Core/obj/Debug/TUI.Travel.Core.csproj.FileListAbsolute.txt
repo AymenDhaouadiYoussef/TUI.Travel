@@ -1,0 +1,21 @@
+C:\Users\Aymen\Documents\Visual Studio 2015\Projects\TUI Test 1\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.dll
+C:\Users\Aymen\Documents\Visual Studio 2015\Projects\TUI Test 1\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.pdb
+C:\Users\Aymen\Documents\Visual Studio 2015\Projects\TUI Test 1\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.csprojResolveAssemblyReference.cache
+C:\Users\Aymen\Documents\Visual Studio 2015\Projects\TUI Test 1\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.dll
+C:\Users\Aymen\Documents\Visual Studio 2015\Projects\TUI Test 1\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.pdb
+E:\Test TUI\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.dll
+E:\Test TUI\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.pdb
+E:\Test TUI\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.dll
+E:\Test TUI\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.pdb
+C:\Users\Aymen\Documents\Visual Studio 2015\Projects\TUI Test\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.dll
+C:\Users\Aymen\Documents\Visual Studio 2015\Projects\TUI Test\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.pdb
+C:\Users\Aymen\Documents\Visual Studio 2015\Projects\TUI Test\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.dll
+C:\Users\Aymen\Documents\Visual Studio 2015\Projects\TUI Test\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.pdb
+E:\TUI Test\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.dll
+E:\TUI Test\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.pdb
+E:\TUI Test\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.dll
+E:\TUI Test\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.pdb
+E:\TUI Test\EX 1\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.dll
+E:\TUI Test\EX 1\TUI.Travel\TUI.Travel.Core\bin\Debug\TUI.Travel.Core.pdb
+E:\TUI Test\EX 1\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.dll
+E:\TUI Test\EX 1\TUI.Travel\TUI.Travel.Core\obj\Debug\TUI.Travel.Core.pdb

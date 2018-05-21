@@ -1,0 +1,73 @@
+<div class="row">
+  <div class="col">
+    <div class="card">
+      <div class="card-header">Period of flights</div>
+      <div class="card-body">
+        <form (ngSubmit)="onSubmitPeriod(periodForm)" #periodForm="ngForm">
+          <div class="form-row">
+            <div class="form-group col-md-4 align-self-end">
+                <div [hidden]="begDate.valid || begDate.pristine" class="alert alert-danger">
+                    Begin date is required
+                </div>
+              <label class="col-form-label col-form-label-sm" for="beginDate">Begin Date</label>
+              <input id="beginDate" type="datetime-local" class="form-control form-control-sm" 
+               name ="beginDate" [ngModel] = "beginDate | date:'yyyy-MM-ddThh:mm'" #begDate="ngModel" required>
+            </div>
+            <div class="form-group col-md-4 align-self-end">
+                <div [hidden]="endedDate.valid || endedDate.pristine" class="alert alert-danger">
+                    End date is required
+                </div>
+                <label class="col-form-label col-form-label-sm" for="endDate">End Date</label>
+                <input id="endDate" type="datetime-local" class="form-control form-control-sm" 
+                 name ="endDate" [ngModel] = "endDate | date:'yyyy-MM-ddThh:mm'" #endedDate="ngModel" required>
+            </div>
+            <div class="form-group col-md-4 align-self-end">
+              <button type="submit" class="btn btn-primary btn-sm" [disabled]="!periodForm.form.valid">Go</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="card mt-1">
+      <div class="card-header">flights</div>
+      <div class="card-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-5">
+              <mat-form-field class="w-100">
+                  <input type="text" placeholder="Airport" matInput [formControl]="airportControl" [matAutocomplete]="autoAir">
+                  <mat-autocomplete #autoAir="matAutocomplete">
+                    <mat-option *ngFor="let airport of filteredAirports | async" [value]="airport.Name">
+                      {{ airport.Name }}
+                    </mat-option>
+                  </mat-autocomplete>
+                </mat-form-field>
+            </div>
+            <div class="form-group col-md-2 align-self-center">
+              <div ngbDropdown class="d-inline-block">
+                <button class="btn btn-primary btn-sm" id="dropdownActions" ngbDropdownToggle>Actions</button>
+                <div ngbDropdownMenu aria-labelledby="dropdownActions">
+                  <button type="button" class="dropdown-item" routerLink="/newFlight">Add new flight</button>
+                  <button type="button" class="dropdown-item" (click) = "airportControl.setValue('')">Remove filter</button>
+                  <button type="button" class="dropdown-item" (click)="myTable.exportCSV()">Export to CSV</button>
+                  <button type="button" class="dropdown-item" routerLink="/flightsReport">View flights report</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="table-responsive">
+          <generic-table [gtClasses]="'table-hover table-striped table'" #myTable [gtSettings]="configObject.settings" [gtFields]="configObject.fields"
+            [gtData]="configObject.data" [gtOptions]="{numberOfRows:5, stack:true, highlightSearch:true, rowSelection:true}"></generic-table>
+        </div>
+        <div class="text-center">
+          <gt-pagination [gtClasses]="'justify-content-center'" [genericTable]="myTable"></gt-pagination>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

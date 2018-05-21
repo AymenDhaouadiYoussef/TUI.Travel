@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>f6730a1f-d90c-4ffe-a20f-e9b58459016e</ProjectGuid>
+    <RootNamespace>TUI.Travel.Application</RootNamespace>
+    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
+    <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TUI.Travel.Core\TUI.Travel.Core.csproj" />
+    <ProjectReference Include="..\TUI.Travel.DataAccessInterfaces\TUI.Travel.DataAccessInterfaces.csproj" />
+    <ProjectReference Include="..\TUI.Travel.DataAccess\TUI.Travel.DataAccess.csproj" />
+    <ProjectReference Include="..\TUI.Travel.Model\TUI.Travel.Model.csproj" />
+    <ProjectReference Include="..\TUI.Travel.Service\TUI.Travel.Service.csproj" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\DotNet.Web\Microsoft.DotNet.Web.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

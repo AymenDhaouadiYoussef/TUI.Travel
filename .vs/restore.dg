@@ -1,0 +1,11 @@
+#:E:\TUI Test\TUI.Travel\TUI.Travel.Application\TUI.Travel.Application.xproj
+E:\TUI Test\TUI.Travel\TUI.Travel.Application\TUI.Travel.Application.xproj|E:\TUI Test\TUI.Travel\TUI.Travel.Core\TUI.Travel.Core.csproj
+E:\TUI Test\TUI.Travel\TUI.Travel.Application\TUI.Travel.Application.xproj|E:\TUI Test\TUI.Travel\TUI.Travel.DataAccessInterfaces\TUI.Travel.DataAccessInterfaces.csproj
+E:\TUI Test\TUI.Travel\TUI.Travel.Application\TUI.Travel.Application.xproj|E:\TUI Test\TUI.Travel\TUI.Travel.DataAccess\TUI.Travel.DataAccess.csproj
+E:\TUI Test\TUI.Travel\TUI.Travel.Application\TUI.Travel.Application.xproj|E:\TUI Test\TUI.Travel\TUI.Travel.Model\TUI.Travel.Model.csproj
+E:\TUI Test\TUI.Travel\TUI.Travel.Application\TUI.Travel.Application.xproj|E:\TUI Test\TUI.Travel\TUI.Travel.Service\TUI.Travel.Service.csproj
+E:\TUI Test\TUI.Travel\TUI.Travel.DataAccessInterfaces\TUI.Travel.DataAccessInterfaces.csproj|E:\TUI Test\TUI.Travel\TUI.Travel.Model\TUI.Travel.Model.csproj
+E:\TUI Test\TUI.Travel\TUI.Travel.DataAccess\TUI.Travel.DataAccess.csproj|E:\TUI Test\TUI.Travel\TUI.Travel.DataAccessInterfaces\TUI.Travel.DataAccessInterfaces.csproj
+E:\TUI Test\TUI.Travel\TUI.Travel.DataAccess\TUI.Travel.DataAccess.csproj|E:\TUI Test\TUI.Travel\TUI.Travel.Model\TUI.Travel.Model.csproj
+E:\TUI Test\TUI.Travel\TUI.Travel.Service\TUI.Travel.Service.csproj|E:\TUI Test\TUI.Travel\TUI.Travel.DataAccessInterfaces\TUI.Travel.DataAccessInterfaces.csproj
+E:\TUI Test\TUI.Travel\TUI.Travel.Service\TUI.Travel.Service.csproj|E:\TUI Test\TUI.Travel\TUI.Travel.Model\TUI.Travel.Model.csproj

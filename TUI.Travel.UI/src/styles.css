@@ -1,0 +1,129 @@
+@import "~@angular-generic-table/core/css/generic-table.min.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.ng-valid[required],
+.ng-valid.required {
+  border-left: 5px solid #42A948;
+  /* green */
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid #a94442;
+  /* red */
+}
+
+snack-bar-container.custom-error-class-snackbar {
+  background: #FF0000;
+}
+
+.custom-error-class-snackbar .mat-simple-snackbar {
+  color: white;
+}
+
+snack-bar-container.custom-success-class-snackbar {
+  background: #008000;
+}
+
+.custom-success-class-snackbar .mat-simple-snackbar {
+  color: white;
+}
+
+generic-table tr td.clickable>span.gt-row-content {
+
+  cursor: pointer;
+  font-weight: bold;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+generic-table tr td.clickable>span.gt-row-content::before {
+  content: "\F0DA";
+  font: normal normal normal 14px/1 FontAwesome;
+  display: inline-block;
+  width: 14px;
+  color: #000;
+}
+
+generic-table tr td.clickable>span.gt-row-content::before {
+
+  content: "\F0DA";
+  font: normal normal normal 14px/1 FontAwesome;
+  display: inline-block;
+  width: 14px;
+  color: #000;
+}
+
+generic-table tr.row-open td.clickable>span.gt-row-content::before {
+
+  content: "\F0D7";
+}
+
+generic-table th.sort-asc {
+
+  cursor: pointer;
+}
+
+generic-table th.sort-asc:hover {
+
+  text-decoration: underline;
+}
+
+generic-table th.sort-asc::after {
+
+  content: "";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 4px;
+}
+
+generic-table th.sort-asc.sort-numeric::after {
+
+  content: "\F162";
+  border: none !important;
+  vertical-align: baseline !important;
+}
+
+generic-table th.sort-asc.sort-string::after {
+
+  content: "\F15D";
+  border: none !important;
+  vertical-align: baseline !important;
+}
+
+generic-table th.sort-desc {
+
+  cursor: pointer;
+}
+
+generic-table th.sort-desc:hover {
+
+  text-decoration: underline;
+}
+
+generic-table th.sort-desc::after {
+
+  content: "";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 4px;
+}
+
+generic-table th.sort-desc.sort-numeric::after {
+
+  content: "\F163";
+  border: none !important;
+  vertical-align: baseline !important;
+}
+
+generic-table th.sort-desc.sort-string::after  {
+  content: "\F15E";
+  border: none !important;
+  vertical-align: baseline !important;
+}
+

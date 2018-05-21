@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "exports": {
+    "TUI.Travel.Core/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.7",
+      "compile": {
+        "bin/Debug/TUI.Travel.Core.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/TUI.Travel.Core.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/TUI.Travel.Core.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "TUI.Travel.DataAccessInterfaces/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.7",
+      "compile": {
+        "bin/Debug/TUI.Travel.DataAccessInterfaces.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/TUI.Travel.DataAccessInterfaces.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/TUI.Travel.DataAccessInterfaces.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "TUI.Travel.DataAccess/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.7",
+      "compile": {
+        "bin/Debug/TUI.Travel.DataAccess.dll": {}
+      },
+      "runtime": {
+        "../packages/EntityFramework.6.2.0/lib/net45/EntityFramework.SqlServer.dll": {},
+        "../packages/EntityFramework.6.2.0/lib/net45/EntityFramework.dll": {},
+        "bin/Debug/TUI.Travel.DataAccess.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/TUI.Travel.DataAccess.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "TUI.Travel.Model/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.7",
+      "compile": {
+        "bin/Debug/TUI.Travel.Model.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/TUI.Travel.Model.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/TUI.Travel.Model.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "TUI.Travel.Service/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.7",
+      "compile": {
+        "bin/Debug/TUI.Travel.Service.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/TUI.Travel.Service.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/TUI.Travel.Service.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}

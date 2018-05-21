@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="col-1 align-self-center">
+        <button type="button" class="btn btn-primary btn-sm" routerLink="/flights">
+            Return <i class="fa fa-hand-o-left"></i>
+        </button>
+    </div>
+    <div class="col-11">
+        <h1 class="display-4 text-center">Flights report</h1>
+    </div>
+</div>
+<div class="mt-2">
+    <div class="card mt-1" *ngFor="let flight of flights">
+        <h5 class="card-header">
+            <span class="badge badge-secondary">{{flight.Name}}</span>
+            <i class="fa fa-plane fa-lg ml-2" aria-hidden="true"></i>
+        </h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Departure date</h6>
+                    <span>{{flight.DepartureDate.toLocaleDateString() + ' ' + flight.DepartureDate.toLocaleTimeString()}}</span>
+                </div>
+                <div class="col-md-4">
+                    <h6>Departure airport</h6>
+                    <span>{{flight.DepartureAirport.Name}}</span>
+                </div>
+                <div class="col-md-4">
+                    <h6>Destination airport</h6>
+                    <span>{{flight.DestinationAirport.Name}}</span>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-4">
+                    <h6>Distance (KM)</h6>
+                    <span>{{flight.DistanceInKilometer.toFixed(2)}}</span>
+                </div>
+                <div class="col-md-4">
+                    <h6>Fuel consumption (L)</h6>
+                    <span>{{flight.FuelConsumptionInLiter.toFixed(2)}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
